@@ -16,6 +16,7 @@ function StateTutorial() {
   return (
   <div>
     <h1>{inputValue}</h1>
+    <h2>Learning from code aur chai</h2>
     <input type="text" value={inputValue} placeholder='Type something'onChange={onChange} 
     ></input>
   </div>
